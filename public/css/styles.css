@@ -1,0 +1,25 @@
+body {
+  width: 800px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.box div {
+  float: left;
+  width: 100px;
+  height: 100px; }
+
+.impar div:nth-child(odd) {
+  background-color: black; }
+
+.impar div:nth-child(even) {
+  background-color: white; }
+
+.par div:nth-child(even) {
+  background-color: black; }
+
+.par div:nth-child(odd) {
+  background-color: white; }
